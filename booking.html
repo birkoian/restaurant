@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Øverste del av alle sidene, en meny der man kan manøvrere seg mellom de ulike sidene-->
+    <div class="menyknapper">
+
+        <!--Liste med alle sidene-->
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="booking.html">Reservasjon</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="accessibility.html">Accessibility page</a></li>
+            <li><a href="topicalpage.html">Topical page</a></li>
+        </ul>
+
+        <!--En logo som ble laget raskt ved hjelp av logo.com-->
+        <a href="index.html"><img class="logo" src="logo2.png" alt="logo"></a>
+        
+    </div>
+
+    <!--Overskrift på siden-->
+    <div class="bestillingoverskrift">
+    <h2>Reservasjon</h2>
+    </div>
+
+    <!--Informasjon om restauranten-->
+    <div class="info">
+        <p class="brødtekst">Kemercuisine er det beste stedet en kan befinne seg for å smake de herlige rettene tilhørende det rike tyrkiske kjøkkenet.</p>
+        <p class="brødtekst">Kemercuisine forvandler tyrkiske matretter til uunnværlige smaksopplevelser ved å tilby de aller beste rettene i hele landet. Vi oppfyller vår aller viktigste plikt ved å tilby rike menyer med retter som har en uforglemmelig smak, kunstverdig utformet og tilberedt av ekspertkokkene våre. </p>
+        <p class="brødtekst">Vår bedrift i Oslo tilbyr tjenester til de av våre borgere som savner tyrkiske matretter. Vi arbeider for å få deg til å føle deg hjemme ved å sikre at du blir oppvartet på den beste måten og får servert de aller lekreste matrettene. De av våre gjester som lengter etter hjemlandet sitt vil oppnå både mental og fysisk tilfredsstillelse fra det øyeblikket de trer inn i vår restaurant. Som Kemercuisine står vi alltid til tjeneste i Oslo for å tilby de unike smaksopplevelsene som det tyrkiske kjøkken er berømt for – både i navn og aroma.</p>
+        <p class="brødtekst" style="font-weight: bold;">Vårt lokale har plass og kapasitet til å servere rundt 100 personer. For å bestille bord hos oss se lenger ned på siden.</p>
+        <p class="brødtekst">Dersom du ønsker å leie hele lokalet eller ha et arrangement ta kontakt med oss på mail: kemercuisine@gmail.com. Vi serverer også mat til slike anledninger og det vil være mulighet for å bestille andre retter enn det som er på menyen.</p>
+    </div>
+
+    <!--Et skjema man kan fylle ut og reservere bord med ulike inputfelt for tekst og inputfelt for tid og dato-->
+    <div class="skjema" id="skjema">
+
+        <h5>Bestill bord her:</h5>
+        <p class="underoverskrift">(Skriv inn hvilket navn bordet skal stå på og antall personer)</p>
+        
+        <p class="overinput">Fornavn</p>
+        <input type="text"><br>
+        
+        <p class="overinput">Etternavn</p>
+        <input type="text"><br>
+        
+        <p class="overinput">Antall personer</p>
+        <input type="text"><br>
+
+        <p class="overinput">Velg tidspunkt</p>
+        <input type="datetime-local" id="start" name="dato"
+        value="2022-12-05"
+        min="2022-12-05" max="2023-12-31"><br><br>
+
+        <button>Bestill</button>
+
+    </div>
+    
+</body>
+</html>

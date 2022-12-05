@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Øverste del av alle sidene, en meny der man kan manøvrere seg mellom de ulike sidene-->
+    <div class="menyknapper">
+
+        <!--Liste med alle sidene-->
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="booking.html">Reservasjon</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="accessibility.html">Accessibility page</a></li>
+            <li><a href="topicalpage.html">Topical page</a></li>
+        </ul>
+
+        <!--En logo som ble laget raskt ved hjelp av logo.com-->
+        <a href="index.html"><img class="logo" src="logo2.png" alt="logo"></a>
+        
+    </div>
+
+    <div class="overskriftacc">
+    <h2>Accessibility page</h2>
+    </div>
+
+    <p class="tekst">På denne siden skal vi se nærmere på hvordan siden vår er i forhold til tilgjengelighet, samt om
+        den er innenfor gode rammer når det gjelder universalt design. På grunn av at vi ikke har en link til nettsiden enda, legger vi inn
+        en og en fil på nettsiden til W3C (Markup Validation Service). <br><br>
+
+        index.html viser at den ikke ønsker at verdiene til høyde og bredde på logoen skal være der. Logoen finnes på alle sidene, så det er greit å
+        få fiksa. Flytta både høyde og bredde over til css istedenfor og feilmeldingene forsvant. <br><br>
+
+        Før: <br>
+        <img src="indextest.png" alt="indextest før"><br><br>
+
+        Etter: <br>
+        <img src="indextest_etter.png" alt="indextest etter"><br><br>
+
+        meny.html viser at det er blitt brukt duplikat av klassen menu-item-img, og at det ikke trengs. Men sånn vi forstår det er det gunstig å ha de slik
+        fordi da blir alle bildene på menyen plassert slik de skal. <br><br>
+
+        booking.html viser bare at dato-valgene i skjemaet for bestilling av bord er dårlige. Dette er verdier vi kan velge selv så ser ikke helt problemet med det.
+        Lar det være sånn det er. <br><br>
+
+        kontkat.html viser til det samme som på index.html. Den ønsket ikke ha bredde på bilde i html-fila. Flytta den derfor til css. <br><br>
+
+        topicalpage.html viser ingen feilmeldinger. <br><br><br>
+
+        Når det gjelder universalt desgin på nettsiden vår føler vi at vi har gjort en god jobb. Den er enkel å bruke og forstå. 
+        Teksstørrelsen på alle sidene er bra og lett å lese, selv for folk med litt dårligere syn. På bildene har vi skrevet inn i alt-elementet
+        slik at det vil leses opp en beskrivelse av bilde dersom det trengs. Videre er det et gjengående tema i nettsiden vår og alle sidene ser veldig like ut. 
+        Det eneste vi burde lagt mer tid i på nettsiden er nok 
+        hvordan nettsiden vår fungerer på ulike skjermer. Der har vi ikke gjort en så god jobb og heller fokusert kun på desktop-skjerm. 
+
+
+
+    </p>
+    
+</body>
+</html>
